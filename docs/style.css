@@ -70,7 +70,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .nav-link {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.4px;
   text-transform: uppercase;
@@ -184,7 +184,8 @@ a { text-decoration: none; color: inherit; }
   color: var(--text-muted);
   margin-bottom: 24px;
 }
-.hero-badge-label { color: var(--text-dark); font-weight: 600; text-transform: uppercase; letter-spacing: 0.4px; }
+.hero-badge-label { color: var(--text-dark); font-weight: 600; text-transform: uppercase; letter-spacing: 0.4px; font-size: 16px; }
+.hero-badge-flag { width: 24px; height: auto; display: inline-block; }
 
 /* Title */
 .hero-title {
