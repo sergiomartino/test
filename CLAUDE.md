@@ -20,4 +20,4 @@ To be added once the project technology stack is established.
 
 ## Architecture
 
-To be documented as the codebase grows.
+To be documented as the codebase grows!
