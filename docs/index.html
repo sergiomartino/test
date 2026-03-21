@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbara Rod* — Product Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Zain:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ── HEADER ── -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="/" class="logo" aria-label="Barbara Rod home">
+        Barbara<span class="logo-blue">Rod</span><span class="logo-blue logo-star">*</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="/" class="nav-link nav-link--active">Home</a>
+        <a href="about.html" class="nav-link">About Me</a>
+        <a href="#faqs" class="nav-link">FAQs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ── HERO ── -->
+    <section class="hero">
+      <div class="container hero-inner">
+
+        <div class="hero-text">
+          <div class="hero-badge">
+            <span aria-label="British flag">🇬🇧</span>
+            <span aria-label="Italian flag">🇮🇹</span>
+            <span class="hero-badge-label">Product Designer</span>
+          </div>
+          <h1 class="hero-title">Hi, I'm Barbara</h1>
+          <p class="hero-bio">
+            With 15+ years of experience, I partner with teams to
+            <strong class="hero-strong">define, design, and deliver</strong>
+            products that move businesses forward. I've worked with organisations
+            including TUI, Printed.com, and Close Brothers.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Get in touch</a>
+            <a href="#work" class="btn btn-secondary">View work</a>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <div class="hero-photo-glow"></div>
+          <div class="hero-photo-card">
+            <img src="assets/hero-photo.png" alt="Barbara Rodeghiero">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── SELECTED WORK ── -->
+    <section class="work" id="work">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Selected Work</h2>
+          <p class="section-subtitle">
+            A showcase of recent projects and case studies.
+            <a href="#" class="link-inline">
+              Request password
+              <img src="assets/icon-arrow.svg" alt="" width="16" height="16" aria-hidden="true">
+            </a>
+          </p>
+        </div>
+
+        <div class="work-grid">
+
+          <!-- Ocean Census -->
+          <a href="#" class="work-card">
+            <img src="assets/work-ocean-census.jpg" alt="Ocean Census project" class="work-card-img">
+            <div class="work-card-lock" aria-label="Password protected">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+                <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/>
+              </svg>
+            </div>
+          </a>
+
+          <!-- TUI -->
+          <a href="#" class="work-card work-card--info">
+            <img src="assets/work-tui.png" alt="TUI UK & Ireland project" class="work-card-img">
+            <div class="work-card-text">
+              <h3>TUI UK &amp; Ireland</h3>
+              <span class="work-card-link">
+                Read case study
+                <img src="assets/icon-arrow-case.svg" alt="" width="18" height="18" aria-hidden="true">
+              </span>
+            </div>
+            <div class="work-card-lock" aria-label="Password protected">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+                <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Printed.com -->
+          <a href="#" class="work-card work-card--info">
+            <img src="assets/work-printed.png" alt="Printed.com project" class="work-card-img">
+            <div class="work-card-text">
+              <h3>Printed.com</h3>
+              <span class="work-card-link">
+                Read case study
+                <img src="assets/icon-arrow-case.svg" alt="" width="18" height="18" aria-hidden="true">
+              </span>
+            </div>
+            <img src="assets/logo-printed.svg" alt="" class="work-card-brand" aria-hidden="true">
+            <div class="work-card-lock" aria-label="Password protected">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+                <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/>
+              </svg>
+            </div>
+          </a>
+
+          <!-- UNEP-WCMC -->
+          <div class="work-card work-card--dark">
+            <img src="assets/work-unep-wcmc.jpg" alt="UNEP-WCMC project" class="work-card-img">
+            <div class="work-card-gradient"></div>
+            <img src="assets/logo-unep-wcmc.png" alt="UNEP-WCMC" class="work-card-brand work-card-brand--light">
+            <div class="work-card-lock" aria-label="Password protected">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+                <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/>
+              </svg>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── MY SERVICES ── -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My Services</h2>
+          <p class="section-subtitle">How I can help transform your digital products</p>
+        </div>
+        <div class="services-grid">
+
+          <div class="service-card service-card--tilt-r">
+            <img src="assets/service-card-bg-1.svg" alt="" class="service-card-bg" aria-hidden="true">
+            <img src="assets/service-icon-1.svg" alt="" class="service-card-icon" aria-hidden="true">
+            <h3 class="service-card-title">UI/Visual</h3>
+            <p class="service-card-desc">Beautiful interfaces that capture attention and delight users</p>
+          </div>
+
+          <div class="service-card service-card--tilt-l">
+            <img src="assets/service-card-bg-2.svg" alt="" class="service-card-bg" aria-hidden="true">
+            <img src="assets/service-icon-2.svg" alt="" class="service-card-icon" aria-hidden="true">
+            <h3 class="service-card-title">UX/Research</h3>
+            <p class="service-card-desc">Data-driven insights that inform smart design decisions</p>
+          </div>
+
+          <div class="service-card service-card--tilt-r">
+            <img src="assets/service-card-bg-3.svg" alt="" class="service-card-bg" aria-hidden="true">
+            <img src="assets/service-icon-3.svg" alt="" class="service-card-icon" aria-hidden="true">
+            <h3 class="service-card-title">Accessibility</h3>
+            <p class="service-card-desc">Inclusive experiences that work for everyone, everywhere</p>
+          </div>
+
+          <div class="service-card service-card--tilt-l">
+            <img src="assets/service-card-bg-4.svg" alt="" class="service-card-bg" aria-hidden="true">
+            <img src="assets/service-icon-4.svg" alt="" class="service-card-icon" aria-hidden="true">
+            <h3 class="service-card-title">Design System</h3>
+            <p class="service-card-desc">Scalable foundations that keep teams aligned and moving fast</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── TESTIMONIALS ── -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">What people say</h2>
+          <p class="section-subtitle">From team leaders and colleagues I've worked with</p>
+        </div>
+        <div class="testimonials-grid">
+
+          <article class="testimonial-card">
+            <img src="assets/icon-quote.svg" alt="" class="testimonial-quote" width="40" height="40" aria-hidden="true">
+            <blockquote>
+              <p>Barbara is a highly proficient UX/UI designer with a keen eye for detail as well as for product and company strategy. She is adept at using evidence from user research insights and understanding of client needs to create and iterate on innovative designs...</p>
+            </blockquote>
+            <footer>
+              <p class="testimonial-name">Jacinta Jackson</p>
+              <p class="testimonial-role">User researcher at UNEP-WCMC</p>
+            </footer>
+          </article>
+
+          <article class="testimonial-card">
+            <img src="assets/icon-quote.svg" alt="" class="testimonial-quote" width="40" height="40" aria-hidden="true">
+            <blockquote>
+              <p>Barbara worked as one of the UI designers in our team at TUI. She is a highly capable designer who excels at crafting user-centred interfaces within robust design systems, as demonstrated through her work across both TUI and First Choice...</p>
+            </blockquote>
+            <footer>
+              <p class="testimonial-name">Raldwin Macapagal</p>
+              <p class="testimonial-role">Head of Project Design at TUI</p>
+            </footer>
+          </article>
+
+          <article class="testimonial-card">
+            <img src="assets/icon-quote.svg" alt="" class="testimonial-quote" width="40" height="40" aria-hidden="true">
+            <blockquote>
+              <p>Barbara was a great addition to the UX/UI Team at printed.com. Her designs were always perfectly detailed and followed the wireframes and brand guidelines. When given the opportunity to run with her own concepts she produced outstanding results...</p>
+            </blockquote>
+            <footer>
+              <p class="testimonial-name">Stephen Ibbotson</p>
+              <p class="testimonial-role">Head of Projects at Printed.com</p>
+            </footer>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── GET IN TOUCH ── -->
+    <section class="cta" id="contact">
+      <div class="container container--wide">
+        <h2 class="cta-title">Get in touch</h2>
+        <p class="cta-subtitle">Let's create something amazing together</p>
+        <div class="cta-actions">
+          <a href="#" class="btn btn-cta-white">
+            <img src="assets/icon-calendar.svg" alt="" width="20" height="20" aria-hidden="true">
+            Book a call
+          </a>
+          <a href="mailto:hello@barbararod.com" class="btn btn-cta-outline">
+            <img src="assets/icon-email.svg" alt="" width="20" height="20" aria-hidden="true">
+            Email Me
+          </a>
+        </div>
+        <div class="cta-social">
+          <p class="cta-social-label">Connect with me</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Twitter / X">
+              <img src="assets/social-twitter.svg" alt="" width="20" height="20" aria-hidden="true">
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <img src="assets/social-instagram.svg" alt="" width="20" height="20" aria-hidden="true">
+            </a>
+            <a href="https://www.linkedin.com/in/barbararod" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+              <img src="assets/social-linkedin.svg" alt="" width="20" height="20" aria-hidden="true">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container container--wide footer-inner">
+      <p>© 2026 Barbara Rodeghiero. All rights reserved</p>
+      <p>VAT ID 04636440242</p>
+    </div>
+  </footer>
+
+</body>
+</html>
