@@ -57,16 +57,11 @@ a { text-decoration: none; color: inherit; }
 }
 
 /* ── LOGO ── */
-.logo {
-  font-family: 'Zain', sans-serif;
-  font-weight: 700;
-  font-size: 44px;
-  line-height: 1;
-  letter-spacing: -3.08px;
-  color: var(--text-dark);
+.logo img {
+  height: 40px;
+  width: auto;
+  display: block;
 }
-.logo-blue  { color: var(--blue); }
-.logo-star  { font-size: 36px; }
 
 /* ── NAV ── */
 .nav {
