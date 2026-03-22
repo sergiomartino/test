@@ -304,12 +304,6 @@ a { text-decoration: none; color: inherit; }
   display: block;
 }
 
-/* Gradient overlay for dark cards */
-.work-card-gradient {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, transparent 40%, rgba(0,0,0,0.55) 100%);
-}
 
 /* Text overlay (TUI, Printed) */
 .work-card-text {
@@ -318,13 +312,13 @@ a { text-decoration: none; color: inherit; }
   left: 0;
   right: 0;
   padding: 20px 24px;
-  background: linear-gradient(180deg, transparent 0%, rgba(255,255,255,0.97) 40%);
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
   gap: 12px;
 }
 .work-card-text h3 {
+  display: none;
   font-size: 18px;
   font-weight: 700;
   color: var(--text-dark);
