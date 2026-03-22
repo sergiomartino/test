@@ -185,7 +185,7 @@ a { text-decoration: none; color: inherit; }
   margin-bottom: 24px;
 }
 .hero-badge-label { color: var(--text-dark); font-weight: 600; text-transform: uppercase; letter-spacing: 0.4px; font-size: 16px; }
-.hero-badge-flag { width: 24px; height: auto; display: inline-block; }
+.hero-badge-flag { width: 18px; height: auto; display: inline-block; }
 
 /* Title */
 .hero-title {
@@ -256,7 +256,7 @@ a { text-decoration: none; color: inherit; }
   background: var(--white);
   border-radius: 24px;
   padding: 12px;
-  box-shadow: 0 8px 40px rgba(0,0,0,0.10);
+  box-shadow: 0 24px 60px rgba(0,0,0,0.22), 0 4px 16px rgba(0,0,0,0.10);
   transform: rotate(3deg);
   width: 320px;
   height: 415px;
