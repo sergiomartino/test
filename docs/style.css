@@ -354,6 +354,7 @@ a { text-decoration: none; color: inherit; }
   right: 16px;
   width: 48px;
   height: 48px;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
 }
 
 /* ── MY SERVICES ── */
