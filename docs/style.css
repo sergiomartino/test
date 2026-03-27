@@ -157,7 +157,7 @@ a { text-decoration: none; color: inherit; }
   gap: 4px;
 }
 .link-inline:hover { text-decoration: underline; }
-.brand-ref { text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 3px; }
+.brand-ref { text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 2px; text-underline-offset: 6px; }
 
 /* ── HERO ── */
 .hero {
