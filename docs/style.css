@@ -87,7 +87,8 @@ a { text-decoration: none; color: inherit; }
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 14px 28px;
+  height: 60px;
+  padding: 0 32px;
   border-radius: 9999px;
   font-family: 'Outfit', sans-serif;
   font-size: 16px;
@@ -107,7 +108,7 @@ a { text-decoration: none; color: inherit; }
 .btn-secondary {
   background-color: var(--white);
   color: var(--text-dark);
-  border: 2.5px solid var(--text-dark);
+  border: 2px solid var(--text-dark);
   box-shadow: 0 1px 4px rgba(0,0,0,0.06);
 }
 
@@ -120,7 +121,7 @@ a { text-decoration: none; color: inherit; }
 .btn-cta-outline {
   background-color: transparent;
   color: var(--white);
-  border: 1.5px solid rgba(255,255,255,0.55);
+  border: 2px solid rgba(255,255,255,0.55);
 }
 .btn-cta-outline:hover { background-color: rgba(255,255,255,0.1); opacity: 1; }
 
@@ -155,8 +156,9 @@ a { text-decoration: none; color: inherit; }
   display: inline-flex;
   align-items: center;
   gap: 4px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
-.link-inline:hover { text-decoration: underline; }
 .brand-ref { text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 2px; text-underline-offset: 8px; }
 
 /* ── HERO ── */
