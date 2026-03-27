@@ -263,6 +263,10 @@ a { text-decoration: none; color: inherit; }
   transform: rotate(3deg);
   width: 320px;
   height: 415px;
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.hero-photo-card:hover {
+  transform: rotate(7deg);
 }
 
 .hero-photo-card img {
