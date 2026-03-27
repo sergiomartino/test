@@ -107,7 +107,7 @@ a { text-decoration: none; color: inherit; }
 .btn-secondary {
   background-color: var(--white);
   color: var(--text-dark);
-  border: 1.5px solid var(--border);
+  border: 1.5px solid var(--text-dark);
   box-shadow: 0 1px 4px rgba(0,0,0,0.06);
 }
 
